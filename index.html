@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gestionnaire De Notes</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<h1> Gestionnaire de Notes</h1>
+
+	<div class="note-form">
+		<input type="text" id="titre" placeholder="Titre de la note">
+
+		<textarea id="contenu" placeholder="Description..."></textarea>
+
+		<button onclick="addNote()">Ajouter</button>
+	</div>
+
+	<!-- la div qui comportera la note -->
+	<div class="note" id="note"></div>
+
+
+	<script src="./script.js"></script>
+
+</body>
+</html>
